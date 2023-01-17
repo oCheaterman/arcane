@@ -20,7 +20,7 @@ const login = {
     document
       .querySelector("#make_user_submitted")
       .addEventListener("click", () => this.makeUser());
-    document.querySelector(".submit_btn").addEventListener("click", () => {});
+    document.querySelector(".submit_btn").addEventListener("click", () => { });
     document
       .querySelector(".sign_up_text")
       .addEventListener("click", () => modal.showModal(".sign_up_modal"));
